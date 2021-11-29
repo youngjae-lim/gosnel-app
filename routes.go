@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/youngjae-lim/gosnel"
+	// "github.com/youngjae-lim/gosnel"
 )
 
 func (a *application) routes() *chi.Mux {
