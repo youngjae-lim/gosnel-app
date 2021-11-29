@@ -18,7 +18,7 @@ func (a *application) routes() *chi.Mux {
 	a.App.Routes.Handle("/public/*", http.StripPrefix("/public", fileServer))
 
 	// routes from gosnel
-	a.App.Routes.Mount("/gosnel", gosnel.Routes())
+	// a.App.Routes.Mount("/gosnel", gosnel.Routes())
 
 	return a.App.Routes
 }
