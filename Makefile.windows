@@ -2,7 +2,6 @@ BINARY_NAME=gosnelApp.exe
 
 ## build: builds all binaries
 build:
-    @go mod vendor
 	@echo Building Gosnel...
     @go build -o tmp/${BINARY_NAME} .
 	@echo Gosnel built!

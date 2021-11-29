@@ -1,7 +1,6 @@
 BINARY_NAME=gosnelApp
 
 build:
-	@go mod vendor
 	@echo "Building Gosnel..."
 	@go build -o tmp/${BINARY_NAME} .
 	@echo "Gosnel built!"
